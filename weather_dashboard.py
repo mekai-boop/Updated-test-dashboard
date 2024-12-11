@@ -17,12 +17,9 @@ API_URLS = {
     "OpenWeatherMap": "https://api.openweathermap.org/data/2.5/forecast",
     "WeatherStack": "http://api.weatherstack.com/forecast"
 },
-    "TomorrowIO": "https://api.tomorrow.io/v4/timelines"
-},
-    "VisualCrossing": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
-},
+    "TomorrowIO": "https://api.tomorrow.io/v4/timelines",
+    "VisualCrossing": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline",
     "AccuWeather": "https://dataservice.accuweather.com/forecasts/v1/daily/1day"
-}
 
 # Fetch Data from APIs
 def fetch_weather_data(location, date):
